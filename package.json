@@ -1,0 +1,21 @@
+{
+  "name": "namecheap-privateemail-smtp-test",
+  "version": "1.0.0",
+  "description": "Send email with namecheap private email",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "smtp",
+    "namecheap",
+    "nodemailer"
+  ],
+  "author": "Elias Becerra <hello@eliashbf.com>",
+  "license": "MIT",
+  "dependencies": {
+    "nodemailer": "^4.6.7",
+    "nodemailer-express-handlebars": "^3.0.0",
+    "nodemailer-html-to-text": "^3.0.0"
+  }
+}
